@@ -3347,9 +3347,7 @@ Action.FaceJudgement = new Action("Face Judgement", {
     finish() {
         unlockStory("judgementFaced");
         if (resources.reputation >= 50) unlockStory("acceptedIntoValhalla");
-        else if (resources.reputation <= -50) unlockStory("castIntoShadowRealm");
         // if (resources.reputation >= 50) unlockTown(4);
-        // else if (resources.reputation <= 50) unlockTown(5);
     },
 });
 
